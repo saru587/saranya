@@ -4,7 +4,7 @@
   justify-content: center;
 }
 .childone{
-  width:50%;
+  width:60%;
   padding:2%
   border:1px solid #ddd;
   margin:2%;
@@ -12,18 +12,18 @@
   border-radius:20px;
 }
 .childone img{
-  width:40%;
+  width:70%;
   height:40%;
   display:block;
   margin-left:auto;
   margin-right:auto;
 }
 .childtwo{
-  width:100%;
+  width:70%;
   padding:2%
   border:1px solid #ddd;
-  margin:2%
-  box-shadow: 3px 3px 3px pink;
+  margin:2%;
+  box-shadow:3px 3px 3px pink;
   border-radius:20px;
 }
 @media only screen and (min-width:320px) and (max-width:480px){
