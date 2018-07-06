@@ -11,6 +11,14 @@
   box-shadow:3px 3px 3px pink;
   border-radius:20px;
 }
+.childtwo{
+  width:90%;
+  padding:2%
+  border:1px solid #ddd;
+  margin:2%;
+  box-shadow:3px 3px 3px pink;
+  border-radius:20px;
+}
 .childone img{
   width:70%;
   height:40%;
@@ -18,13 +26,12 @@
   margin-left:auto;
   margin-right:auto;
 }
-.childtwo{
-  width:70%;
-  padding:2%
-  border:1px solid #ddd;
-  margin:2%;
-  box-shadow:3px 3px 3px pink;
-  border-radius:20px;
+.childtwo img1{
+  width:60%;
+  height:40%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (min-width:320px) and (max-width:480px){
   .parent{
