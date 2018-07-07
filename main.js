@@ -14,6 +14,7 @@ getfile("data.json",function(text){
   console.log(data);
   career(data.career);
   education(data.education);
+  skills(data.skills);
 })
 var child2=document.querySelector(".childtwo");
 function career(careerInfo){
@@ -40,8 +41,16 @@ function education(edu){
 var tr2="";
 for(var i=0; i<edu.length; i++){
 tr2+="<tr><td>"+edu[i].degree+"</td><td>"+edu[i].institute+"</td><td>"+edu[i].data+"</td></tr>";
-
   }
   eduTable.innerHTML=tr1+tr2;
-  child2.appendChild(eduTable)
+  child2.appendChild(eduTable);
 }
+  function skills(skil){
+    var ul=document.createElement("ul");
+    child2.appendChild(ul);
+    for(var i=0; i<skil.length; i++){
+      var li=document.createElement("li");
+      li.textContent=skil[i].title+":"+skil[i].content;
+      ul.appendChild(li);
+    }
+  }
