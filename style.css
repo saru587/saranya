@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .parent{
   display:flex;
   flex-direction:row;
@@ -63,3 +64,51 @@
     margin-right:auto;
   }
 }
+=======
+.parent{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.childone{
+  width:50%;
+  padding:2%
+  border:1px solid #ddd;
+  margin:2%;
+  box-shadow:3px 3px 3px pink;
+  border-radius:20px;
+}
+img{
+  width:40%;
+  height:40%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .childone{
+    width:50%;
+    padding:2%
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow:3px 3px 3px pink;
+    border-radius:20px;
+  }
+
+
+  .childtwo{
+    width:100%;
+    padding:2%
+    border:1px solid #ddd;
+    margin:2%
+    box-shadow: 3px 3px 3px pink;
+    border-radius:20px;
+  }
+
+}
+>>>>>>> 39bf35c2774d2a64572c4ee292de0b68506ed9cd
